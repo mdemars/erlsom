@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<UserRprt xmlns="http://www.deutsche-boerse.com/comxerv/v4.2" 
+sessionId="123345" 
+mbrName="Blah GmbH" usrId="123456" revisionNo="9" 
+name="TRADER USER 1" 
+usrCode="TRD006" mbrId="SEDEX" defaultDlvryAreaId="10YCH-SWISSGRIDZ" defaultAcctId="ABC123" state="ACTI">
+<AssgAcctId>ABC123</AssgAcctId>
+<UsrRole>ROLE_USER</UsrRole>
+<UsrRole>ROLE_PUBLIC_API</UsrRole>
+<UsrRole>ROLE_SYSTEM_ACCESS</UsrRole>
+<StandardHeader marketId="EPEX"/>
+</UserRprt>

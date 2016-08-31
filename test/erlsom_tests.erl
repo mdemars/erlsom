@@ -22,6 +22,13 @@ extension_test_() ->
      verify_stability_(["extension", "extension.xsd"],
                        ["extension", "extension.xml"],
                        [])}.
+                       
+comxerv_test_() ->
+    {"Test XSD type extensions used by ComXerv.",
+     verify_stability_(["comxerv", "comxerv.xsd"],
+                       ["comxerv", "comxerv.xml"],
+                       [])}.
+                       
 
 %% @doc
 %% compile the XSD schema file with the given relative path, example:
